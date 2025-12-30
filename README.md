@@ -23,6 +23,12 @@ When the water level is below the low threshold, the pump turns ON.
 When it exceeds the high threshold, the pump turns OFF, preventing 
 overflow. 
 
+
+Output
+
+<img width="1020" height="569" alt="image" src="https://github.com/user-attachments/assets/341a33e4-903c-4d0a-99ea-312802d1761f" />
+
+
 Simulation Results (GTKWave) 
 
 The simulation was performed using the Icarus Verilog compiler 
@@ -38,6 +44,9 @@ maintains its previous state.
 
 The GTKWave simulation demonstrates proper synchronization 
 between input signals (level changes) and outputs (pump and alarm).
+
+<img width="1009" height="505" alt="image" src="https://github.com/user-attachments/assets/de62efd8-df81-4819-b166-741ca895029d" />
+
 
 Conclusion 
 
